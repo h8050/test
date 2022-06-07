@@ -159,7 +159,7 @@ education, housing, month, pdays and previous.
 
 ## 6.- Life cycle flowchart of the proposed ML
 
-<embed src="lc.html.pdf" width="800px" height="600px" type="application/pdf" />
+![](lc.html)<!-- -->
 
 A brief description of what I propose as a flowchart follows the next
 steps:

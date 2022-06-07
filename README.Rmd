@@ -77,8 +77,8 @@ I would give a shot to the logistic regression method and use the 16 variables o
 
 ## 6.- Life cycle flowchart of the proposed ML
 
-```{r out.height = "600px", out.width='800px', echo=F}
-knitr::include_graphics("lc.html.pdf")
+```{r echo=F}
+knitr::include_graphics("lc.html")
 ```
 
 A brief description of what I propose as a flowchart follows the next steps:

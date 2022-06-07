@@ -1,0 +1,22 @@
+stateDiagram-v2
+[*] --> ML_life_cycle
+
+    state ML_life_cycle {
+    State2: Data preparation
+State3: Model training
+note right of State3
+        Or known as retraining when repeating the cycle
+    end note
+State4: Model packaging
+State5: Model assessment
+State6: Model deployment
+State7: Model monitor
+        [*] --> State2
+State2 --> State3
+State3 --> State4
+State4 --> State5
+State5 --> State6
+State6 --> State7
+State7 --> State2
+    }
+    
